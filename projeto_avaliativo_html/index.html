@@ -5,49 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coca</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
+
     <!-------- WEBSITE HEADER --------->
 
-    <header class="site-header">
-        <div class="header-container">
-
-            <div class="logo">
-                <img class="logo" src="./img/logo.png" alt="Logo">
-            </div>
-
-            <div class="navbar-desktop">
-                <div class="navbar">
-                    <ul>
-                        <li>Home</li>
-                        <li>Solutions</li>
-                        <li>Rankings</li>
-                        <li>Pricing</li>
-                    </ul>
-                </div>
-                <div class="navbar-button">
-                    <li>Sign In</li>
-                    <button>Sign up Free</button>
-                </div>
-            </div>
-
-            <div class="hamburger-menu">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 28 24" stroke-width="2" stroke="white"
-                    width="24" height="24">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M2 5.25h20 m-20 4.5h20 m-20 4.5h20 m-20 4.5h20" />
-                </svg>
-            </div>
-
+    <!----- desktop ----->
+    <header id="header_desktop">
+        <div class="titulo-header">
+            <img src="/img/logo-header.png" alt="imagem C">
+            <h1>coca</h1>
+        </div>
+        <div class="botoes-header">
+            <h2 id="botao-home">Home</h2>
+            <h2>About</h2>
+            <h2>Blog</h2>
+            <h2>Pricing</h2>
+            <h2>Contact Us</h2>
+        </div>
+        <div id="botao-header-login">
+            <button class="Sign-in">Sign in</button>
+            <button class="Sign-up-free">Sign up Free</button>
         </div>
     </header>
 
+    <!----- mobile ----->
+    <header id="header_mobile">
+        <div class="titulo-header">
+            <img src="/img/logo-header.png" alt="imagem C">
+            <h1>coca</h1>
+        </div>
+        <div class="humburguer">
+            <img src="/img/hamburguer.png" alt="hamburguer">
+        </div>
+    </header>
 
     <!-- =============================================================== -->
 
-    <!-- WEBSITE MAIN -->
+    <!-------- WEBSITE MAIN --------->
+    
     <main class="main">
 
         <!-- SECTION HERO -->
@@ -83,10 +81,12 @@
         <!-- =============================================================== -->
 
         <!-- SECTION BRAND LOGOS -->
-
         <section class="brand-logos-container">
-            <div class="brand-titulo">
+            <div class="brand-titulo-mobile">
                 <h3>Our services/<br>products are trusted<br> by industry leaders</h3>
+            </div>
+            <div class="brand-titulo-desktop">
+                <h3>Our services/products are trusted<br> by industry leaders</h3>
             </div>
             <div class="logos-grid">
                 <div class="logos-first">
@@ -134,30 +134,34 @@
         <!-- =============================================================== -->
 
         <!-- SECTION UTILIZE -->
-        <section class="utilize-section">
-            <div class="container-utilize">
+        <div class="cor-fundo">
+            <section class="utilize-section">
+                <div class="container-utilize">
 
-                <div class="feature-image">
-                    <img src="./img/earning.png" alt="Earnings" id="utilize-image">
-                </div>
-
-                <div class="utilize-content">
-                    <div class="utilize-tittle">
-                        <h3>Utilize your busy time wisely with these excellent tips</h3>
+                    <div class="feature-image">
+                        <img src="./img/earning.png" alt="Earnings" id="utilize-image">
                     </div>
-                    <div class="utilize-subtittle">
-                        <p id="ut-bold">Time management is essential for ensuring that you have enough time to complete
-                            your
-                            tasks.</p>
-                        <p>Time is a crucial element in our lives, helping us to structure and organize our daily
-                            activities
-                            into good habits. By understanding the value of time, we can gain valuable experience and
-                            develop ourselves.</p>
-                    </div>
-                </div>
 
-            </div>
-        </section>
+                    <div class="utilize-content">
+                        <div class="utilize-tittle">
+                            <h3>Utilize your busy time wisely with these excellent tips</h3>
+                        </div>
+                        <div class="utilize-subtittle">
+                            <p id="ut-bold">Time management is essential for ensuring that you have enough time to
+                                complete
+                                your
+                                tasks.</p>
+                            <p>Time is a crucial element in our lives, helping us to structure and organize our daily
+                                activities
+                                into good habits. By understanding the value of time, we can gain valuable experience
+                                and
+                                develop ourselves.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
 
         <!-- =============================================================== -->
 
@@ -201,7 +205,6 @@
         <!-- =============================================================== -->
 
         <!-- SECTION YOUR TIME -->
-
         <section class="your-time-section">
             <div class="container-your-time">
 
@@ -244,16 +247,24 @@
         <section class="get-started-section">
             <div class="container-get-started">
 
+                <img src="img/c.png" alt="C" class="bg-c">
+
                 <div class="gs-tittle-subtittle">
                     <h3>Are you ready to get started? Begin your free trial today</h3>
                     <p>Experience the Possibilities: Start Your Free Trial and Get Started Today</p>
                     <div class="gs-options">
-                    <span>
-                        <div class="option1"> <p>Ready for 30 days trial</p></div>
-                         <div class="option2"><p>Exclusive support</p></div>
-                         <div class="option3"><p>No fees</p></div>
-                    </span>
-                </div>
+                        <span>
+                            <div class="option1">
+                                <p>Ready for 30 days trial</p>
+                            </div>
+                            <div class="option2">
+                                <p>Exclusive support</p>
+                            </div>
+                            <div class="option3">
+                                <p>No fees</p>
+                            </div>
+                        </span>
+                    </div>
                 </div>
 
                 <div class="gs-buttons">
@@ -271,8 +282,8 @@
 
         <!-- =============================================================== -->
 
-        <!-- FOOTER MOBILE-->
-        <footer class="rodape-mobile">
+        <!-- FOOTER MOBILE -->
+        <footer class="rodape">
             <div class="conteudo-rodape">
 
                 <div class="rodape-superior">
@@ -326,6 +337,63 @@
 
             </div>
         </footer>
+
+
+        <!-- FOOTER DESKTOP -->
+        <footer class="rodape-desktop">
+            <div class="conteudo-rodape-desktop">
+                <div class="rodape-superior-desktop">
+                    <div class="primeira-linha-desktop">
+                        <div class="titulo-e-contato-desktop">
+                            <p class="tittle-rodape-desktop">Let's join Coca,<br>your best partner</p>
+                            <div class="contato-rodape-desktop">
+                                <div class="contato-item-desktop">
+                                    <img class="logo-localizacao" src="./img/footer_local.png" alt="Localização">
+                                    <p>1929, Bancangan, Sambit,<br>Suroboyo, Wakanda</p>
+                                </div>
+                                <div class="contato-item-desktop">
+                                    <img class="logo-email" src="./img/footer_email.png" alt="E-mail">
+                                    <p>hello@coca.co</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="segunda-linha-desktop">
+                        <div class="logo-e-links-desktop">
+                            <div class="logo-footer-desktop">
+                                <img class="logo-footer" src="./img/logo-escrita-footer.png" alt="">
+                            </div>
+                            <div class="links-rodape-desktop">
+                                <a href="">Overview</a>
+                                <a href="">Features</a>
+                                <a href="">Pricing</a>
+                                <a href="">Careers</a>
+                                <a href="">Help</a>
+                            </div>
+                        </div>
+                        <div class="redes-sociais-desktop">
+                            <a href=""><img src="./img/face.png" alt="Facebook"></a>
+                            <a href=""><img src="./img/tt.png" alt="Twitter"></a>
+                            <a href=""><img src="./img/insta.png" alt="Instagram"></a>
+                            <a href=""><img src="./img/linkedin.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="linha-rodape-desktop"></div>
+
+                <div class="rodape-inferior-desktop">
+                    <p class="copyright-rodape-desktop">© Coca Pay by Sans Brothers</p>
+                    <div class="termos-container-desktop">
+                        <span class="termos-rodape-desktop">Terms & Conditions</span>
+                        <span class="termos-rodape-desktop">Privacy Policy</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
 
 </body>
 
