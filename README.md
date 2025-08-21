@@ -1,29 +1,47 @@
-# Projeto: Replicação de Design Responsivo - Mobile First
+# Coca  
 
-## 👤 Aluna  
-Amanda Salvador
+## 👨‍💻 Informações do Projeto  
+- **Aluno:** Amanda Salvador  
+- **Professor:** Kristian Erdmann  
+- **Disciplina:** Desenvolvimento Web (HTML e CSS)  
 
-## 📄 Descrição do Projeto  
-Este projeto consiste na replicação fiel de um layout fornecido no Figma, construindo uma página web responsiva utilizando HTML e CSS.  
-O foco principal foi garantir a abordagem *mobile first*, permitindo que o site se adapte corretamente a dispositivos móveis (375px) e desktops (1440px).  
+---
 
-A estrutura HTML foi desenvolvida com tags semânticas, promovendo organização e acessibilidade.  
-O CSS foi modularizado e utilizou variáveis para facilitar a manutenção e a personalização do design.
+## 📌 Contextualização  
+O desenvolvimento de interfaces web requer a aplicação correta de conceitos de **HTML** e **CSS**, assegurando que a estrutura do site seja organizada, responsiva e de fácil manutenção.  
+Além disso, a fidelidade ao design proposto e a atenção à experiência do usuário são fundamentais para um resultado final de qualidade.  
 
-## 🚀 Execução Local
+Neste projeto, atuo como desenvolvedora front-end responsável pela criação de uma página temática chamada **Coca**, com foco em boas práticas de **estruturação semântica**, **estilização modular**, **responsividade** e **uso de variáveis no CSS** para garantir maior consistência e reutilização de estilos.  
 
-1. **Pré-requisitos:**  
-   - Visual Studio Code 
-   - Navegador web  
-   - Extensão *Live Server* (opcional)
+---
 
-2. **Passos:**  
-   - Baixe ou clone o repositório.  
-   - Abra a pasta do projeto no VS Code.  
-   - Abra o arquivo `index.html` no navegador:  
-     - **Com Live Server:** clique com o botão direito e selecione *Open with Live Server*.  
-     - **Sem Live Server:** abra o arquivo diretamente pelo explorador de arquivos.
+## 🎯 Objetivo da Atividade  
+O objetivo é **desenvolver uma página web completa e responsiva**, aplicando conhecimentos de HTML e CSS, com foco em:  
 
-## 🛠 Tecnologias Utilizadas  
-- HTML (tags semânticas)  
-- CSS (abordagem *mobile first*, *media queries*, variáveis CSS)
+- Uso de **tags semânticas** do HTML5  
+- Responsividade para diferentes tamanhos de tela  
+- Separação entre estrutura (HTML) e estilo (CSS)  
+- Utilização de **variáveis CSS** para cores e fontes 
+- Aplicação de **boas práticas de organização do código**  
+- Documentação clara do projeto  
+
+---
+
+## 🛠️ Descrição da Tarefa  
+- Criar a página **Coca** utilizando HTML e CSS.  
+- Organizar o conteúdo em um **arquivo HTML principal**.  
+- Estilizar o projeto com um **arquivo CSS externo**.  
+- Implementar e aplicar **variáveis CSS** para facilitar a manutenção e padronização visual.  
+- Garantir a **responsividade** da página, adaptando-a para dispositivos móveis e desktops.  
+- Implementar uma estrutura limpa, semântica e bem comentada.  
+- Elaborar este `README.md` documentando o projeto.  
+
+---
+
+## 📂 Estrutura de Arquivos  
+
+PROJETO_AVALIATIVO_HTML/ <br>
+├── index.html<br>
+├── style.css<br>
+├── /img<br>
+└── README.md
