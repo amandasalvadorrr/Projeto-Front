@@ -1,4 +1,4 @@
-# Coca  
+# Time Tracking
 
 ## 👨‍💻 Informações do Projeto  
 - **Aluno:** Amanda Salvador  
