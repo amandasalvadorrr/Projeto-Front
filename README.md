@@ -11,7 +11,7 @@
 O desenvolvimento de interfaces web requer a aplicação correta de conceitos de **HTML** e **CSS**, assegurando que a estrutura do site seja organizada, responsiva e de fácil manutenção.  
 Além disso, a fidelidade ao design proposto e a atenção à experiência do usuário são fundamentais para um resultado final de qualidade.  
 
-Neste projeto, atuo como desenvolvedora front-end responsável pela criação de uma página temática chamada **Coca**, com foco em boas práticas de **estruturação semântica**, **estilização modular**, **responsividade** e **uso de variáveis no CSS** para garantir maior consistência e reutilização de estilos.  
+Neste projeto, atuo como desenvolvedora front-end responsável pela criação de uma página temática chamada **Time Tracking**, com foco em boas práticas de **estruturação semântica**, **estilização modular**, **responsividade** e **uso de variáveis no CSS** para garantir maior consistência e reutilização de estilos.  
 
 ---
 
